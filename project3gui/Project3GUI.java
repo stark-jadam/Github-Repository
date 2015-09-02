@@ -27,7 +27,7 @@ public class Project3GUI extends javax.swing.JDialog implements ActionListener{
     
     /**
      * 
-     * constructor to create GUI
+     * Constructor to create GUI
      */
     public Project3GUI(){
        
@@ -77,7 +77,11 @@ public class Project3GUI extends javax.swing.JDialog implements ActionListener{
     }
     
    
-    //checks if the input data is numeric
+    /**
+     * Checks if the input string is numeric
+     * @param str The string to be evaluated
+     * @return boolean Whether the str parameter is numeric
+     */
     public boolean isNumeric(String str){  
             try  
             {  
@@ -91,14 +95,20 @@ public class Project3GUI extends javax.swing.JDialog implements ActionListener{
              }  
               return true;
         }
-    //main method to create Project3GUI object
+    /**
+     * Main method to create Project3GUI object
+     * @param args Command line args
+     */
     public static void main(String[] args) {
         // TODO code application logic here
         Project3GUI foo = new Project3GUI();
         
     }
 
-    //action performed when compute is clicked
+    /**
+     * Controls the action performed when a button is clicked
+     * @param e ActionEvent associated with a particular button 
+     */
     @Override
     public void actionPerformed(ActionEvent e) {
          String event = e.getActionCommand();
@@ -127,7 +137,9 @@ public class Project3GUI extends javax.swing.JDialog implements ActionListener{
          }
     }
 
-    //class that defines a windowAdapter to override windowClosing method to perform function on window close
+    /**
+     * Class that defines a windowAdapter to override windowClosing method to perform function on window close
+     */
     private static class WindowAdapterImpl extends WindowAdapter {
 
         public WindowAdapterImpl() {

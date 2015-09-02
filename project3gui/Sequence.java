@@ -9,12 +9,16 @@ public class Sequence {
     
     private static int efficiency;
    
-    //constructor to initialize instance variable
+    /**Constructor to initialize instance variable
+    */
     public Sequence(){
         efficiency = 0;
     }
     
-    //computes nth term iteratively where the nth term is 2 times the previous number plus the next previous number
+    /**Computes nth term iteratively, where the nth term is 2 times the previous number plus the next previous number
+     * @param n The term to be evaluated
+     * @return int The value of the nth term, calculated iteratively
+    */
     public static int computeIterative(int n){
         
         efficiency = 0;
@@ -38,7 +42,10 @@ public class Sequence {
         
     }
     
-    //helper method for recursive() method
+    /**Helper method for recursive() method
+    * @param n The term to be evaluated 
+    * @return int The value of the nth term, calculated recursively
+    */
         public static int computeRecursive(int n){
             efficiency = 0;
             return recursive(n);
@@ -46,7 +53,10 @@ public class Sequence {
        
     }
     
-    //calculates nth term recursively
+    /**Computes nth term recursively, where the nth term is 2 times the previous number plus the next previous number
+     * @param n The term to be evaluated
+     * @return int The value of the nth term, calculated recursively
+    */
     private static int recursive(int n){
         efficiency++;
         if(n <= 1){
@@ -57,7 +67,10 @@ public class Sequence {
         
     }
     
-    //returns the efficiecy counter
+    /**
+     * Returns the value of the efficiency counter
+     * @return int The efficiency counter
+     */
     public static int getEfficiency(){
         return efficiency;
     }
