@@ -1,0 +1,8 @@
+@startuml
+class employee.Employee
+class employee.Executive
+class employee.Main
+class employee.Salesman
+employee.Executive --|> employee.Employee
+employee.Salesman --|> employee.Employee
+@enduml

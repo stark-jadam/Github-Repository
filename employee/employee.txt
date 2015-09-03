@@ -1,0 +1,10 @@
+2014 Employee Anders,James 3200
+2015 Executive McPearson,Michael 22000 12
+2014 Executive O'neil,Peter 19000 52
+2015 Salesman Michaels,Brett 2200 43000
+2014 Salesman Malloy,Frank 2400 4000000
+2014 Employee Smith,Stan 5300
+2015 Executive Steamer,Stan 13000 100
+2014 Salesman James,Franklin 1300 49992
+2015 Executive Eden,Mitch 33000 49
+2015 Salesman Eden,Sally 3200 98753423
