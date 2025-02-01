@@ -2,4 +2,4 @@ These are some example projects I have completed, both as classroom assignments 
 
 Thank you for looking,
 
-Adam Stark
+-Adam Stark
